@@ -8,7 +8,7 @@ sites:
   - name: Wikipedia
     url: https://en.wikipedia.org
   - name: PUCE
-    url: https://puce.edu.ec
+    url: https://www.puce.edu.ec
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
 
