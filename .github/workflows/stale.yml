@@ -1,0 +1,22 @@
+# Número de días de inactividad antes de que un issue se vuelva obsoleto
+daysUntilStale: 60
+
+# Número de días de inactividad después de que un issue obsoleto sea cerrado
+daysUntilClose: 7
+
+# Etiquetas que no deben considerarse como obsoletas
+exemptLabels:
+  - pinned
+  - security
+
+# Etiqueta que se utilizará al marcar un issue como obsoleto
+staleLabel: wontfix
+
+# Comentario que se publicará al marcar un issue como obsoleto
+markComment: >
+  Este issue se ha marcado automáticamente como "stale" porque no ha tenido
+  actividad reciente. Será cerrado si no hay actividad nueva. Por favor, si
+  tienes más información para aportar, no dudes en comentar. Gracias.
+
+# Comentario que se publicará al cerrar un issue obsoleto
+closeComment: false
