@@ -10,7 +10,7 @@ sites:
   - name: PUCE
     url: https://www.puce.edu.ec
   - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+    url: https://estesitionoexiste.koj.co
 
 assignees:
   - kfjaramillo  
