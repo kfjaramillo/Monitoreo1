@@ -12,8 +12,8 @@ sites:
   - name: Test Broken Site
     url: https://estesitionoexiste.koj.co
 
-assignees:
-  - kfjaramillo  
+# assignees:
+ # - kfjaramillo  
 up: true # Indica si el sistema está actualmente en funcionamiento
 maxResponseTime: 6000 # Tiempo máximo de respuesta esperado en milisegundos
   
@@ -33,4 +33,12 @@ status-website:
       href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
+notifications:
+  - type: issue
+    repository: kfjaramillo/Monitoreo1
+    assignees:
+      - kfjaramillo
+    labels:
+      - bug
+    threshold: 1
 # See https://upptime.js.org/docs/configuration
