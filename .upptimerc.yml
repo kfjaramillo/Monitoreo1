@@ -15,7 +15,7 @@ sites:
 # assignees:
  # - kfjaramillo  
 up: true # Indica si el sistema está actualmente en funcionamiento
-maxResponseTime: 6000 # Tiempo máximo de respuesta esperado en milisegundos
+# maxResponseTime: 6000 # Tiempo máximo de respuesta esperado en milisegundos
   
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
